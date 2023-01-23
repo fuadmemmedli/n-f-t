@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100vw;
+    height: 100px;
+    font-size: large;
+    display: flex;
+    color: #FFFFFF;
+    background-color: rgba(43, 43, 43, 1);
+    align-items: center;
+    justify-content: space-between;
+}
+.marketplace__nav__logo{
+  width: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 25px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav button{
+    border: none;
+    background-color:  rgba(43, 43, 43, 1);
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size:large;
+}
+nav button:hover{
+    font-size: medium; 
+    transition: 500ms;
+}
+nav button a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.singup__btn{
+   background-color: blueviolet;
+   padding: 20px;
+   border-radius: 20px;
+   cursor: pointer;
+}
+.marketplace__nav__btns{
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+}
+.marketplace{
+    width: 100vw;
+    height: 351px;
+    background-color: #2B2B2B;
+    border-bottom: 1px solid rgba(133, 133, 132, 1);
+}
+.marketplace__container{
+    width: 70vw;
+    height: 191px;
+    margin-left: 15vw;
+    position: absolute;
+    margin-top: 80px;
+}
+.marketplace__container h1{
+    color: white;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+}
+.marketplace__container h3{
+    color: white;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.marketplace__container input{
+    width: 100%;
+    height: 60px;
+    background-color: #2B2B2B;
+    border: 1px solid rgba(133, 133, 132, 1);
+    color:  rgba(133, 133, 132, 1) ;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.marketplace2{
+    width: 100vw;
+    height: 70px;
+    background-color: #2B2B2B;
+}
+.marketplace__container2{
+    width: 70vw;
+    height: 70px;
+    margin-left: 15vw;
+}
+.marketplace__container2__left{
+    width: 35vw;
+    height: 65px;
+    border-bottom: 5px solid rgba(133, 133, 132, 1);
+}
+.cards{
+    width: 100vw;
+    height: 2106px;
+    background-color:rgba(59, 59, 59, 1) ;
+    border-bottom: 3px solid  rgba(43, 43, 43, 1);
+}
+.cards1{
+    width: 70vw;
+    height: 469px;
+    /* background-color: aliceblue; */
+    margin-left: 15vw;
+    margin-top: 60px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card1{
+    width: 330px;
+    height: 469px;
+    background-color: rgba(43, 43, 43, 1);
+    border-radius: 20px;
+}
+
+.card1 img{
+    width: 330px;
+    height: 295px;
+    border-radius: 20px 20px 0px 0px;
+}
+.card2{
+    width: 330px;
+    height: 469px;
+    background-color: rgba(43, 43, 43, 1);
+    border-radius: 20px;
+}
+.card3{
+    width: 330px;
+    height: 469px;
+    background-color: rgba(43, 43, 43, 1);
+    border-radius: 20px;
+}
+.cards2{
+    width: 70vw;
+    height: 469px;
+    /* background-color: aliceblue; */
+    margin-top: 560px;
+    position: absolute;
+    margin-left: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+.card4{
+    width: 330px;
+    height: 469px;
+    background-color: rgba(43, 43, 43, 1);
+    border-radius: 20px;
+}
+.card5{
+    width: 330px;
+    height: 469px;
+    background-color: rgba(43, 43, 43, 1);
+    border-radius: 20px;
+}
+.card6{
+    width: 330px;
+    height: 469px;
+    background-color: rgba(43, 43, 43, 1);
+    border-radius: 20px;
+}
+
+.cards3{
+    width: 70vw;
+    height: 469px;
+    /* background-color: aliceblue; */
+    margin-top: 1059px;
+    position: absolute;
+    margin-left: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+.card7{
+    width: 330px;
+    height: 469px;
+    background-color: rgba(43, 43, 43, 1);
+    border-radius: 20px;
+}
+.card8{
+    width: 330px;
+    height: 469px;
+    background-color: rgba(43, 43, 43, 1);
+    border-radius: 20px;
+}
+.card9{
+    width: 330px;
+    height: 469px;
+    background-color: rgba(43, 43, 43, 1);
+    border-radius: 20px;
+}
+
+.cards4{
+    width: 70vw;
+    height: 469px;
+    /* background-color: aliceblue; */
+    margin-top: 1558px;
+    position: absolute;
+    margin-left: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+.card10{
+    width: 330px;
+    height: 469px;
+    background-color: rgba(43, 43, 43, 1);
+    border-radius: 20px;
+}
+.card11{
+    width: 330px;
+    height: 469px;
+    background-color: rgba(43, 43, 43, 1);
+    border-radius: 20px;
+}
+.card12{
+    width: 330px;
+    height: 469px;
+    background-color: rgba(43, 43, 43, 1);
+    border-radius: 20px;
+}
+.card2 img{
+    width: 330px;
+    height: 295px;
+    border-radius: 20px 20px 0px 0px;
+}
+.card3 img{
+    width: 330px;
+    height: 295px;
+    border-radius: 20px 20px 0px 0px;
+}
+.card4 img{
+    width: 330px;
+    height: 295px;
+    border-radius: 20px 20px 0px 0px;
+}
+.card5 img{
+    width: 330px;
+    height: 295px;
+    border-radius: 20px 20px 0px 0px;
+}
+.card6 img{
+    width: 330px;
+    height: 295px;
+    border-radius: 20px 20px 0px 0px;
+}
+.card7 img{
+    width: 330px;
+    height: 295px;
+    border-radius: 20px 20px 0px 0px;
+}
+.card8 img{
+    width: 330px;
+    height: 295px;
+    border-radius: 20px 20px 0px 0px;
+}
+.card9 img{
+    width: 330px;
+    height: 295px;
+    border-radius: 20px 20px 0px 0px;
+}
+.card10 img{
+    width: 330px;
+    height: 295px;
+    border-radius: 20px 20px 0px 0px;
+}
+.card11 img{
+    width: 330px;
+    height: 295px;
+    border-radius: 20px 20px 0px 0px;
+}
+.card12 img{
+    width: 330px;
+    height: 295px;
+    border-radius: 20px 20px 0px 0px;
+}
+.footer{
+    width: 100vw;
+    height: 334px;
+    background-color: #3B3B3B;
+
+}
+
+.footer__top{
+    width: 70vw;
+    height: 191px;
+    margin-left: 15vw;
+    position: absolute;
+    margin-top: 40px;
+
+}
+
+
+.footer__bottom{
+    width: 70vw;
+    height: 33px;
+    margin-left: 15vw;
+    border-top:  3px solid  rgba(43, 43, 43, 1);
+    position: absolute;
+    margin-top: 261px ;
+
+}
+.footer__bottom p{
+    color: #FFFFFF;
+    padding: 10px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
